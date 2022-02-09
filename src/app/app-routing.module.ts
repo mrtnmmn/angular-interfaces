@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { EjClass01Component } from './ej-class01/ej-class01.component';
 import { Ejemplo1Component } from './ejemplo1/ejemplo1.component';
 import { Ejemplo10Component } from './ejemplo10/ejemplo10.component';
 import { Ejemplo11Component } from './ejemplo11/ejemplo11.component';
@@ -37,6 +38,7 @@ const routes: Routes = [
   {path:'ejemplo15/:miparametro', component: Ejemplo15Component},
   {path:'ejercicio1', component: Ejercicio1Component},
   {path:'ejercicio2', component: Ejercicio2Component},
+  {path:'ej-class01', component: EjClass01Component}
 
 ];
 
