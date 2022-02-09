@@ -1,0 +1,7 @@
+<!-- Comunicación entre un componente padre y uno hijo-->
+<h2 [style.color]="color">Soy el padre</h2>
+Soy de color 
+<input type="text" [(ngModel)]="color">
+{{color}}
+
+<app-ejemplo12-hijo [colorPadre]="color"></app-ejemplo12-hijo>
