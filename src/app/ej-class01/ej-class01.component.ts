@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EjClass01Component implements OnInit {
 
+  public nombre: string = ""
+  public nombres: string[] = []
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
-}
+  insertIntoList() {
+    this.nombres.push(this.nombre)
+    this.nombre = ""
+  }
+
+}   

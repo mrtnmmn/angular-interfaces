@@ -1,0 +1,11 @@
+<h1>Multiplicacion</h1>
+
+<form>
+    <label>Numero 1: </label>
+    <input type="number" name="num1"[(ngModel)]="num1" (change)="calculate()">
+    <br>
+    <label>Numero 2: </label>
+    <input type="number" name="num2"[(ngModel)]="num2" (change)="calculate()">
+</form>
+
+<p>Result: {{res}}</p>

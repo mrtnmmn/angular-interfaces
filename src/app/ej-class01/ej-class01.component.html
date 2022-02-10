@@ -2,6 +2,10 @@
 
 <form>
     <label>Nombre: </label>
-    <input type="text">
-    <button>Añadir profesor</button>
+    <input type="text" [(ngModel)]="nombre" name="nombreProfesor">
+    <button (click)="insertIntoList()">Añadir profesor</button>
 </form>
+
+<ul>
+    <li *ngFor="let n of nombres"> {{n}} <a href="/">X</a> </li> 
+</ul>

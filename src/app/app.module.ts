@@ -26,6 +26,9 @@ import { Ejemplo14Component } from './ejemplo14/ejemplo14.component';
 import { Ejemplo15Component } from './ejemplo15/ejemplo15.component';
 import { Ejemplo16Component } from './ejemplo16/ejemplo16.component';
 import { EjClass01Component } from './ej-class01/ej-class01.component';
+import { EjClass02Component } from './ej-class02/ej-class02.component';
+import { EjClass03Component } from './ej-class03/ej-class03.component';
+import { EjClass03HijoComponent } from './ej-class03-hijo/ej-class03-hijo.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,10 @@ import { EjClass01Component } from './ej-class01/ej-class01.component';
     Ejemplo14Component,
     Ejemplo15Component,
     Ejemplo16Component,
-    EjClass01Component
+    EjClass01Component,
+    EjClass02Component,
+    EjClass03Component,
+    EjClass03HijoComponent
   ],
   imports: [
     BrowserModule,
