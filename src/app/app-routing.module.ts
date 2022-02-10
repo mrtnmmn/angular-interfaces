@@ -10,6 +10,7 @@ import { Ejemplo12PadreComponent } from './ejemplo12-padre/ejemplo12-padre.compo
 import { Ejemplo13PadreComponent } from './ejemplo13-padre/ejemplo13-padre.component';
 import { Ejemplo14Component } from './ejemplo14/ejemplo14.component';
 import { Ejemplo15Component } from './ejemplo15/ejemplo15.component';
+import { Ejemplo16Component } from './ejemplo16/ejemplo16.component';
 import { Ejemplo2Component } from './ejemplo2/ejemplo2.component';
 import { Ejemplo3Component } from './ejemplo3/ejemplo3.component';
 import { Ejemplo4Component } from './ejemplo4/ejemplo4.component';
@@ -38,6 +39,7 @@ const routes: Routes = [
   {path:'ejemplo13Padre', component: Ejemplo13PadreComponent},
   {path:'ejemplo14', component: Ejemplo14Component},
   {path:'ejemplo15/:miparametro', component: Ejemplo15Component},
+  {path:'ejemplo16', component: Ejemplo16Component},
   {path:'ejercicio1', component: Ejercicio1Component},
   {path:'ejercicio2', component: Ejercicio2Component},
   {path:'ej-class01', component: EjClass01Component},
