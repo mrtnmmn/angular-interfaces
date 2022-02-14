@@ -2,14 +2,12 @@
     <label>Marcar: </label> &nbsp;
     
     <label>Impares:</label>
-    <input type="radio" name="impar" [(ngModel)]="impares">
+    <input type="radio" value="true" name="num" [(ngModel)]="impares">
 
-    &nbsp;
-    &nbsp;
-    &nbsp;
+    &nbsp;&nbsp;&nbsp;
 
     <label>Pares</label>
-    <input type="radio" name="impar" [(ngModel)]="pares">
+    <input type="radio" value="false" name="num" [(ngModel)]="pares">
 
     {{impares}}
     {{pares}}
